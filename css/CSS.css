@@ -4,3 +4,12 @@ h2{
 h1{
     color: aqua;
 }
+
+.formarCampoTexto{
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+}
+
+#titForm1{
+    color: rgb(235, 26, 217);
+}
