@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando Form</title>
+    <style>
+        .inputBackgroundcolor{
+            background-color: yellow;
+            color: red;
+        }
+
+        #idEnviar{
+            border-color: black;
+        }
+
+        form{
+            margin: 0 auto;
+            width: 250px;
+            height: 200px;
+        }
+        input{
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="cadastro.php">
+        <label for="idLogin">Login:</label>
+        <input type="text" id="idLogin" name="idLogin" class="inputBackgroundcolor"><br>
+        <label for="idPassaword">Senha:</label>
+        <input type="password" id="idPassaword" name="idPassword" class="inputBackgroundcolor"><br>
+        <label for="idIdade">Idade:</label>
+        <input type="number" id="idIdade" name="idIdade" class="inputBackgroundcolor"><br>
+        <label for="idSexo">Sexo:</label>
+        <input type="radio" id="idSexoM" name="idSexo">Masculino
+        <input type="radio" id="idSexoF" name="idSexo">Feminino<br>
+        <label for="idProgramacao">Linguagens:</label><br>
+        <input type="checkbox" name="idProgramacao" id="idJavascipt">Javascript<br>
+        <input type="checkbox" name="idProgramacao" id="idPython">Python<br>
+        <input type="submit" value="Enviar" id="idEnviar">
+    </form>
+</body>
+</html>
