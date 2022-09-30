@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado Checkpoint 2</title>
+    <style>
+        .textCenter{
+            margin: 0 auto;
+            width: 1200px;
+            text-align: center;
+            background-color: #ed145b;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 550px;
+            height: 120px;
+            margin-top: 50px;
+        }
+
+        th{
+            background-color: #1e90ff;
+            height: 30px;
+        }
+
+        tr{
+            background-color: rgb(189, 185, 185);
+        }
+        .intervaloBColor{
+            background-color: rgb(139, 137, 137);
+        }
+
+        #articleHorario{
+            text-align: center;
+            width: 550px;
+            height: 350px;
+            padding-top: 25px;
+        }
+
+        #articleForm{
+            height: 250px;
+            width: 190px;
+            background-color: rgb(209, 206, 206);
+        }
+
+        .formId{
+            width: 190px;
+            height: 250px;
+            justify-items: center;
+        }
+
+        section{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <header class="textCenter"><h2>Simulado CheckPoint 2</h2></header>
+
+    <section>
+        <article id="articleHorario">
+        <label>Meu horário semanal</label>
+        <table>
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>SEG</th>
+                    <th>TER</th>
+                    <th>QUA</th>
+                    <th>QUI</th>
+                    <th>SEX</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>19:00 às 21:00</td>
+                    <td>Disciplina 1</td>
+                    <td>Disciplina 2</td>
+                    <td>Disciplina 3</td>
+                    <td>Disciplina 4</td>
+                    <td>Disciplina 5</td>
+                </tr>
+    
+                <tr class="intervaloBColor">
+                    <td colspan="6">Intervalo</td>
+                </tr>
+    
+                <tr>
+                    <td>21:15 às 23:15</td>
+                    <td>Disciplina 1</td>
+                    <td>Disciplina 2</td>
+                    <td>Disciplina 3</td>
+                    <td>Disciplina 4</td>
+                    <td>Disciplina 5</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <article id="articleForm">
+        <form action="" id="formId">
+            <label for="">Nome:</label><br>
+            <input type="text"><br>
+            <label for="">Assunto:</label><br>
+            <input type="text"><br>
+            <label for="">Email</label><br>
+            <input type="text"><br>
+            <label for="">Mensagem:</label><br>
+            <input type="text" id=""><br>
+        </form>
+    </article>
+</section>
+    
+    <footer class="textCenter"><h2>Simulado Checkpoint 2</h2></footer>
+</body>
+</html>
