@@ -1,0 +1,69 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(102,187,34);
+}
+nav{
+    font-size: 25px;
+    height: 80px;
+    padding-top: 1px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+article{
+    text-align: center;
+}
+h1{
+    font-weight: 100;
+}
+.imgCarrinho{
+    height: 15px;
+}
+input{
+    width: 100px;
+}
+button{
+    width: 128px;
+    background-color: rgb(102,187,34);  
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;  
+}
+.aButton{
+    border-color: black;
+}
+h3{
+    font-size: 25px;
+}
+form{
+    width: 40%;
+}
+#idDesc{
+    height: 40px;
+}
+.boxForm{
+    width: 100%;
+    border-width: 1px;
+    border-color: black;
+
+}
+#idEnviar{
+    border-width: 1px;
+}
