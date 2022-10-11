@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: gray;
+
+        }
+
+        article {
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .bloco1,
+            .bloco2,
+            .bloco3,
+            .bloco4 {
+                width: 100%;
+                background-color: red;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-block: 4%;
+                transition: 0.5s;
+            }
+
+            .bloco1:hover,
+            .bloco2:hover,
+            .bloco3:hover,
+            .bloco4:hover {
+                box-sizing: border-box;
+                float: left;
+                width: 100%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+
+            }
+        }
+
+        @media screen and (min-width:481px) and (max-width:768px) {
+
+            .bloco1,
+            .bloco2,
+            .bloco3,
+            .bloco4 {
+                box-sizing: border-box;
+                float: left;
+                width: 50%;
+                background-color: yellow;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-block: 4%;
+                transition: 0.5s;
+            }
+
+            .bloco1:hover,
+            .bloco2:hover,
+            .bloco3:hover,
+            .bloco4:hover {
+                box-sizing: border-box;
+                float: left;
+                width: 50%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+
+            }
+        }
+
+        @media screen and (min-width:769px) and (max-width:1279px) {
+
+            .bloco1,
+            .bloco2,
+            .bloco3 {
+                box-sizing: border-box;
+                float: left;
+                width: 33.33%;
+                background-color: blueviolet;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-block: 4%;
+                transition: 0.5s;
+            }
+
+            .bloco4 {
+                clear: both;
+                width: 100%;
+                background-color: azure;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-block: 4%;
+                transition: 0.5s;
+            }
+
+            .bloco1:hover,
+            .bloco2:hover,
+            .bloco3:hover {
+                box-sizing: border-box;
+                float: left;
+                width: 33.33%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+
+            }
+
+            .bloco4:hover {
+                box-sizing: border-box;
+                float: left;
+                width: 100%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+            }
+        }
+
+        @media screen and (min-width:1280px) {
+
+            .bloco1,
+            .bloco2,
+            .bloco3,
+            .bloco4 {
+                box-sizing: border-box;
+                float: left;
+                width: 25%;
+                background-color: bisque;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-block: 4%;
+                transition: 0.5s;
+            }
+
+            .bloco1:hover,
+            .bloco2:hover,
+            .bloco3:hover,
+            .bloco4:hover {
+                box-sizing: border-box;
+                float: left;
+                width: 25%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article class="bloco1">BLOCO 01
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+        </article>
+        <article class="bloco2">BLOCO 02
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+        </article>
+        <article class="bloco3">BLOCO 03
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+        </article>
+        <article class="bloco4">BLOCO 04
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
+                provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
+                error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
+                ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+        </article>
+    </section>
+</body>
+
+</html>
