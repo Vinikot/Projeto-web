@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: auto;
+        text-align: center;
+      }
+      div {
+        background-color: red;
+        color: white;
+        transition: 0.5s;
+        opacity: 75%;
+      }
+      div:hover {
+        opacity: 100%;
+      }
+      ::selection {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <script>
+    /*function mostrar_menor(){
+        let nr1=parseInt(document.getElementById("txtNum01").value);
+        let nr2=parseInt(document.getElementById("txtNum02").value);
+        let objDiv=document.getElementById("idResult");
+        let result="";
+        if(nr1>nr2)
+            result="....::::....::::....::::....NUMERO 1 É MAIOR QUE O NUMERO 2....::::....::::....::::....";
+        else if(nr2>nr1)
+            result="....::::....::::....::::....NUMERO 2 É MAIOR QUE O NUMERO 1....::::....::::....::::....";
+        else
+            result="....::::....::::....::::....NUMERO 1 É IGUAL QUE O NUMERO 2....::::....::::....::::....";
+        objDiv.innerHTML = result;
+    }*/
+
+    function mostrar_menor(pNum1, pNum2) {
+      let nr1 = parseInt(pNum1);
+      let nr2 = parseInt(pNum2);
+      let objDiv = document.getElementById("idResult");
+      let result = "";
+      if (nr1 > nr2)
+        result =
+          "....::::....::::....::::....NUMERO 1 É MAIOR QUE O NUMERO 2....::::....::::....::::....";
+      else if (nr2 > nr1)
+        result =
+          "....::::....::::....::::....NUMERO 2 É MAIOR QUE O NUMERO 1....::::....::::....::::....";
+      else
+        result =
+          "....::::....::::....::::....NUMERO 1 É IGUAL QUE O NUMERO 2....::::....::::....::::....";
+      objDiv.innerHTML = result;
+    }
+  </script>
+  <body>
+    <label for="txtNum01">NUMERO 1: </label>
+    <input type="text" id="txtNum01" /><br />
+    <label for="txtNum02">NUMERO 2: </label>
+    <input type="text" id="txtNum02" /><br />
+    <input
+      type="button"
+      value="mostrar-menor"
+      onclick="mostrar_menor(document.getElementById('txtNum01').value,document.getElementById('txtNum02').value);"
+    />
+    <hr />
+    <label for="txtNum03">NUMERO 3: </label>
+    <input type="text" id="txtNum03" /><br />
+    <label for="txtNum04">NUMERO 4: </label>
+    <input type="text" id="txtNum04" /><br />
+    <input
+      type="button"
+      value="mostrar-menor"
+      onclick="mostrar_menor(document.getElementById('txtNum03').value,document.getElementById('txtNum04').value);"
+    />
+    <div id="idResult"></div>
+  </body>
+  <script src="js/script01.js"></script>
+</html>

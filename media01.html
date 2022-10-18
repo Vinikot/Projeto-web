@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MEDIA</title>
     <style>
         body {
             margin: 0;
@@ -17,7 +17,6 @@
             width: 100%;
             height: 100%;
             border: 1px solid black;
-
         }
 
         @media screen and (max-width: 480px) {
@@ -34,6 +33,7 @@
                 justify-content: center;
                 padding-block: 4%;
                 transition: 0.5s;
+                display: block;
             }
 
             .bloco1:hover,
@@ -65,6 +65,7 @@
                 justify-content: center;
                 padding-block: 4%;
                 transition: 0.5s;
+                display: block;
             }
 
             .bloco1:hover,
@@ -95,6 +96,7 @@
                 justify-content: center;
                 padding-block: 4%;
                 transition: 0.5s;
+                display: block;
             }
 
             .bloco4 {
@@ -107,6 +109,7 @@
                 justify-content: center;
                 padding-block: 4%;
                 transition: 0.5s;
+                display: block;
             }
 
             .bloco1:hover,
@@ -145,6 +148,7 @@
                 justify-content: center;
                 padding-block: 4%;
                 transition: 0.5s;
+                display: block;
             }
 
             .bloco1:hover,
@@ -156,8 +160,29 @@
                 width: 25%;
                 background-color: rgb(0, 0, 0);
                 color: white;
-
             }
+            .bloco1:hover + .hide,
+            .bloco2:hover,
+            .bloco3:hover,
+            .bloco4:hover{
+                display: grid;
+            }
+
+        }
+
+        ::selection {
+            background-color: gray;
+            color: black;
+        }
+        button{
+            background-color: gray;
+            color: white;
+            border: 1px solid gray;
+            border-radius: 5px;
+            display: none;
+        }
+        .hide{
+            display: none;
         }
     </style>
 </head>
@@ -173,6 +198,7 @@
                 provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
                 error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
                 ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+                <button class="hide">Saiba mais...</button>
         </article>
         <article class="bloco2">BLOCO 02
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
@@ -183,6 +209,7 @@
                 provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
                 error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
                 ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+                <button>Saiba mais...</button>
         </article>
         <article class="bloco3">BLOCO 03
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
@@ -193,6 +220,7 @@
                 provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
                 error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
                 ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+                <button>Saiba mais...</button>
         </article>
         <article class="bloco4">BLOCO 04
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime, repellendus culpa ex
@@ -203,6 +231,7 @@
                 provident vero labore incidunt molestias dolorum omnis! Voluptas reprehenderit neque accusamus? Eveniet,
                 error hic corporis officiis repudiandae nisi voluptatum voluptatem repellendus vero quos. Deleniti sunt
                 ad soluta ratione amet libero necessitatibus maxime. Ab, facilis! Molestiae, qui aperiam?</p>
+                <button>Saiba mais...</button>
         </article>
     </section>
 </body>
