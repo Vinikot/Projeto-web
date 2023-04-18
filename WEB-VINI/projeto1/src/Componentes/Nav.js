@@ -17,6 +17,10 @@ export default function Nav() {
         <li>
           <Link to="/Contato">Contato</Link>
         </li>
+
+        <li>
+          <Link to="/Api">Api</Link>
+        </li>
       </ul>
     </div>
   );
